@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Calificaciones</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Registro de Calificaciones</h1>
+
+        <div id="input-container">
+            <p>Nombre del alumno: </p>
+            <input type="text" id="nameInput" placeholder="Alumno">
+
+            <p>Calificacion: </p>
+            <input type="number" id="gradeInput" placeholder="Calificación">
+
+            <button id="addButton">Agregar</button>
+        </div>
+
+        <div id="result-container">
+            <h2>Alumnos Aprobados</h2>
+            <ul id="approvedList"></ul>
+            <h2>Alumnos Reprobados</h2>
+            <ul id="failedList"></ul>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
+
+
+
+<!---Práctica 3. Aprobados y Reprobados Crea una aplicación que solicite nombres 
+de un alumno y sus respectivas calificaciones y los almacene en una lista, 
+dicha aplicación tendrá que sacar a los alumnos que reprobaron con una calificación menor que siete 
+y almacenarlos nuevamente en una lista de reprobados, la aplicación debe de mostrar a los alumnos 
+que aprobaron y los alumnos que aprobaron.  -->
